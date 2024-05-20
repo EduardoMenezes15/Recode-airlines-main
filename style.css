@@ -1,0 +1,62 @@
+.html {
+    text-align: center;
+    margin: 25%;
+}
+
+.texto {
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 3px 1px #000000;
+    color:#81f0ff
+}
+.textos{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#01004e
+}
+#formulario {
+    border: 10px double #000000;
+    border-radius: 30px;
+    box-sizing: border-box;
+    width: 600px;
+    height: 260px;
+    margin: auto;
+    background-color: rgb(129, 215, 255);
+}
+
+.html{
+    background-image: url('fotobck.jpg');
+    background-repeat: no-repeat;
+    background-position:100%;
+    margin:0;
+}
+
+.caixas {
+    transition:0.5s;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px;
+    width: 500px;
+    border-radius: 25px;
+    background-color:#b9fff9;
+}
+.caixas:hover{
+    transition: all 0.5s ease-in-out;
+    border: 2px solid #0400ff;
+    padding:5px;
+    border-radius: 25px;
+    background-color:#20ffec;
+}
+#checkbox {
+    width:16px;
+    height:16px
+}
+#botao{
+    background-color: #b9fff9;
+    transition: 0.5s;
+}
+.botao:hover{
+    border: 2px solid #4744fc;
+    background-color: #009286;
+    transition: 0.5s;
+}
+.lista{
+    border: 2px solid rgb(25, 233, 119)
+}

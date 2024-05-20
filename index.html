@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html class="html" lang ="pt-BR">
+<head id="head">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="codigo.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title class="texto">Recode airlines</title>
+</head>
+<body id="body">
+    <h1 class="texto">Recode airlines</h1>
+    <h2 class="texto"> velocidade e conforto, só aqui.</h2>
+    <h3 class="texto"> <strong>preencha o formulario para agendar sua viagem</strong></h3>
+    <form id="formulario"  method="post">
+        <label for="Lpartida"><strong class="texto">escolha o ponto de partida</strong></label><br>
+        <input type="text" name="partida" placeholder="por favor, digite um local de partida" id="Lpartida" class="caixas"> <br>
+        <label for="Npassagens"><strong class="texto">por favor selecione o numero de passagens</strong></label><br>
+        <select name="passagens" id="Npassagens" class="caixas">
+            <option>1 passagem</option>
+            <option>2 passagens</option>
+            <option>3 passagens</option>
+            <option>4 passagens</option>
+        </select> <br>
+        <div>
+            <label for="desstinos"><strong class="texto">Escolha o destino</strong></label>
+        </div>
+        <input type="text" id="desstinos" name="destino" placeholder="por favor digite o seu destino" class="caixas"><br>
+        <label class="texto" for="classes"><strong>escolha a classe desejada</strong></label><br>
+        <select name="classe" class="caixas" id="classes">
+            <option>economica</option>
+            <option>executiva</option>
+            <option>primeira classe</option>
+        </select><br>
+        <label for="checkbox" class="texto">
+            <strong>passagem de ida e volta</strong><input type="checkbox" name="ida e volta" id="checkbox" value="passagem de ida e volta">
+        </label> <br>
+        <button class="botao" id="botao" type="button" onclick="verificarForm()">confirmar</button>
+    </form>
+    <div> <h2><strong> ainda não sabe onde ir? confira as opções:</strong></h2><br>
+        <a href="Lista.html">clique aqui</a>
+    </div>
+</body>
+</html>
